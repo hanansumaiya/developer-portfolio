@@ -53,6 +53,7 @@ body {
     padding-left: 10%;
 }
 
+/* ///////////////////////////// */
 .mid-banner {
     background-image: url('images/dream-bg.png');
     background-repeat: no-repeat;
@@ -97,4 +98,69 @@ body {
     color: white;
     font-weight: 700;
     display: inline-block;
+}
+
+/* ///////////////////////////// */
+.experince {
+    background-image: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 5% 0%;
+}
+
+.experince h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.experince .flexible-section {
+    padding: ;
+    display: flex;
+}
+
+.experince .flexible-section .full-stack {
+    width: 49%;
+    margin-left: 5%;
+    margin-right: 2.5%;
+    padding: 30px 30px 100px;
+    box-shadow: 10px 10px 30px gray;
+    border-left: 8px solid;
+    border-image: linear-gradient(#F78969, #FB6555);
+    border-image-slice: 1;
+}
+
+.experince .flexible-section .full-stack h1 {
+    font-size: 40px;
+    text-align: left;
+}
+
+.experince .flexible-section .full-stack h3 {
+    color: #FFAF29;
+}
+
+.experince .flexible-section .baby-developer {
+    width: 49%;
+    margin-right: 5%;
+    margin-left: 2.5%;
+    padding: 30px 30px 100px;
+    box-shadow: 10px 10px 30px gray;
+    border-left: 8px solid;
+    border-image: linear-gradient(#000CFF, #00F3FF);
+    border-image-slice: 1;
+}
+
+.experince .flexible-section .baby-developer h1 {
+    font-size: 40px;
+    text-align: left;
+}
+
+.experince .flexible-section .baby-developer h3 {
+    color: #FFAF29;
+}
+
+footer {
+    padding: 1% 0%;
+    text-align: center;
 }
